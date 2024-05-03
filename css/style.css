@@ -8,11 +8,15 @@
 
 body{
     font-family:"Roboto", sans-serif;
-    background-color: #121212;
+    
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.body{
+    background-color: #261914;
 }
 
 .card{
@@ -41,4 +45,58 @@ body{
     padding: 1.5rem 1rem;
 }
 
-.profile-name{}
+.profile-name{
+    font-size: 1.5 rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.job-title{
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #8C5332;
+    text-transform: uppercase;
+    margin-bottom: 1.3rem;
+    
+}
+.description{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: #9e9e9e;
+
+}
+
+.social-links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    border-top: 1px solid #cfcfcf;
+    
+}
+
+
+
+.social-links .spotify{
+    color: #1DB954;
+}
+.social-links .you-tube{
+    color: #FF0000;
+}
+.social-links .others{
+    color: black;
+}
+
+.social-links .you-tube{
+    color: #FF0000;
+}
+.social-links .others{
+    color: black;
+}
+.social-links > a {
+    font-size: 1.3rem;
+    padding-block: 1.3rem;
+    
+}
